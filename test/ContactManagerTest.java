@@ -15,6 +15,8 @@ public class ContactManagerTest {
 
         SUT2.name = "Random";
         SUT2.phoneNumber = "0669696969";
+
+        SUT.addContact(SUT2);
     }
 
     @Test
